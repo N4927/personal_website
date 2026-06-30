@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Wi-Body wireless body area network visual">
+  <rect width="1200" height="675" fill="#f7f4ee"/>
+  <rect x="75" y="75" width="1050" height="525" rx="26" fill="#ffffff" stroke="#d8dde1" stroke-width="3"/>
+  <path d="M590 165 C530 185 492 250 500 330 C507 410 552 486 600 510 C648 486 693 410 700 330 C708 250 670 185 610 165 Z" fill="#eef3f8" stroke="#d8dde1" stroke-width="4"/>
+  <circle cx="600" cy="210" r="45" fill="#eef3f8" stroke="#d8dde1" stroke-width="4"/>
+  <g fill="#2b8a7e" stroke="#ffffff" stroke-width="5">
+    <circle cx="535" cy="285" r="28"/>
+    <circle cx="665" cy="285" r="28"/>
+    <circle cx="600" cy="390" r="28"/>
+    <circle cx="600" cy="500" r="28"/>
+  </g>
+  <rect x="178" y="265" width="210" height="150" rx="18" fill="#0b2f4f"/>
+  <rect x="205" y="295" width="156" height="26" rx="13" fill="#ffffff" opacity=".9"/>
+  <rect x="205" y="345" width="120" height="18" rx="9" fill="#2b8a7e"/>
+  <rect x="205" y="378" width="88" height="18" rx="9" fill="#c9861a"/>
+  <g fill="none" stroke="#0f4c81" stroke-width="5" stroke-dasharray="10 13" opacity=".75">
+    <path d="M388 335 C450 300 485 295 535 285"/>
+    <path d="M388 335 C470 372 525 385 600 390"/>
+    <path d="M388 335 C480 430 535 480 600 500"/>
+  </g>
+  <g transform="translate(805 235)">
+    <rect width="190" height="220" rx="18" fill="#eef3f8"/>
+    <rect x="34" y="46" width="122" height="22" rx="11" fill="#0f4c81"/>
+    <rect x="34" y="92" width="94" height="22" rx="11" fill="#2b8a7e"/>
+    <rect x="34" y="138" width="142" height="22" rx="11" fill="#c9861a"/>
+  </g>
+</svg>

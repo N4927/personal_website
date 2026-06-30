@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Rocket lander MPC visual">
+  <rect width="1200" height="675" fill="#f7f4ee"/>
+  <rect x="70" y="70" width="1060" height="535" rx="24" fill="#eef3f8" stroke="#d8dde1" stroke-width="3"/>
+  <rect x="120" y="520" width="960" height="22" rx="11" fill="#d6dde2"/>
+  <rect x="820" y="492" width="180" height="28" rx="10" fill="#5d8d54"/>
+  <path d="M180 145 C285 230 365 312 455 378 S630 492 900 502" fill="none" stroke="#0f4c81" stroke-width="12" stroke-linecap="round"/>
+  <path d="M180 145 C310 190 430 210 560 265 S770 290 955 190" fill="none" stroke="#b94a48" stroke-width="8" stroke-linecap="round" stroke-dasharray="20 24"/>
+  <path d="M180 145 C245 275 285 440 420 520 S605 600 770 570" fill="none" stroke="#c9861a" stroke-width="8" stroke-linecap="round" stroke-dasharray="20 24"/>
+  <g transform="translate(895 455) rotate(-8)">
+    <path d="M0 -90 L45 40 L-45 40 Z" fill="#0b2f4f"/>
+    <circle cx="0" cy="-12" r="20" fill="#ffffff"/>
+    <path d="M-25 40 L0 105 L25 40 Z" fill="#c9861a"/>
+    <path d="M-52 20 L-92 55 L-40 55 Z" fill="#2b8a7e"/>
+    <path d="M52 20 L92 55 L40 55 Z" fill="#2b8a7e"/>
+  </g>
+  <g fill="none" stroke="#2b8a7e" stroke-width="4" opacity=".8">
+    <path d="M720 375 C780 340 850 332 925 352"/>
+    <path d="M690 425 C770 385 865 382 965 412"/>
+    <path d="M760 310 C830 285 905 290 980 325"/>
+  </g>
+  <rect x="155" y="470" width="250" height="34" rx="17" fill="#ffffff"/>
+  <rect x="155" y="470" width="180" height="34" rx="17" fill="#0f4c81"/>
+</svg>

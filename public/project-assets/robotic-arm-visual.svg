@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Robotic arm control visual">
+  <rect width="1200" height="675" fill="#f7f4ee"/>
+  <rect x="85" y="95" width="1030" height="485" rx="26" fill="#ffffff" stroke="#d8dde1" stroke-width="3"/>
+  <rect x="140" y="475" width="920" height="34" rx="17" fill="#d6dde2"/>
+  <g transform="translate(285 425)">
+    <path d="M-65 40 H75 L95 95 H-85 Z" fill="#161a1d"/>
+    <circle cx="0" cy="0" r="46" fill="#0b2f4f"/>
+    <line x1="0" y1="0" x2="175" y2="-145" stroke="#b94a48" stroke-width="42" stroke-linecap="round"/>
+    <circle cx="175" cy="-145" r="38" fill="#0f4c81"/>
+    <line x1="175" y1="-145" x2="385" y2="-80" stroke="#b94a48" stroke-width="36" stroke-linecap="round"/>
+    <circle cx="385" cy="-80" r="30" fill="#2b8a7e"/>
+    <path d="M410 -88 L472 -125 M410 -72 L472 -35" stroke="#161a1d" stroke-width="15" stroke-linecap="round"/>
+  </g>
+  <rect x="760" y="385" width="72" height="72" rx="12" fill="#c9861a"/>
+  <g fill="none" stroke="#2b8a7e" stroke-width="5" opacity=".8">
+    <path d="M285 425 L460 280 L670 345"/>
+    <path d="M670 345 L795 421"/>
+    <path d="M285 425 L795 421"/>
+  </g>
+  <rect x="805" y="160" width="210" height="150" rx="20" fill="#eef3f8"/>
+  <rect x="835" y="195" width="150" height="22" rx="11" fill="#0b2f4f"/>
+  <rect x="835" y="235" width="115" height="18" rx="9" fill="#2b8a7e"/>
+  <rect x="835" y="268" width="132" height="18" rx="9" fill="#c9861a"/>
+</svg>
