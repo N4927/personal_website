@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Deep reinforcement learning scheduling visual">
+  <rect width="1200" height="675" fill="#f7f4ee"/>
+  <rect x="80" y="80" width="1040" height="515" rx="24" fill="#ffffff" stroke="#d8dde1" stroke-width="3"/>
+  <rect x="130" y="130" width="470" height="350" rx="18" fill="#eef3f8"/>
+  <g stroke="#0b2f4f" stroke-width="10" stroke-linecap="round">
+    <line x1="185" y1="205" x2="540" y2="205"/>
+    <line x1="185" y1="285" x2="540" y2="285"/>
+    <line x1="185" y1="365" x2="540" y2="365"/>
+    <line x1="185" y1="445" x2="540" y2="445"/>
+  </g>
+  <g>
+    <rect x="210" y="183" width="110" height="44" rx="8" fill="#0f4c81"/>
+    <rect x="340" y="183" width="80" height="44" rx="8" fill="#2b8a7e"/>
+    <rect x="430" y="183" width="70" height="44" rx="8" fill="#c9861a"/>
+    <rect x="245" y="263" width="95" height="44" rx="8" fill="#2b8a7e"/>
+    <rect x="365" y="263" width="130" height="44" rx="8" fill="#0f4c81"/>
+    <rect x="195" y="343" width="160" height="44" rx="8" fill="#c9861a"/>
+    <rect x="375" y="343" width="105" height="44" rx="8" fill="#2b8a7e"/>
+    <rect x="230" y="423" width="125" height="44" rx="8" fill="#0f4c81"/>
+    <rect x="390" y="423" width="120" height="44" rx="8" fill="#2b8a7e"/>
+  </g>
+  <g fill="none" stroke="#2b8a7e" stroke-width="4" opacity=".75">
+    <path d="M690 350 C745 265 830 242 905 285 S1010 372 1060 245"/>
+    <path d="M690 415 C770 385 820 425 890 390 S1015 300 1060 360"/>
+    <path d="M690 285 C765 325 820 190 905 210 S1010 250 1060 180"/>
+  </g>
+  <g fill="#0b2f4f">
+    <circle cx="690" cy="350" r="18"/>
+    <circle cx="780" cy="265" r="18"/>
+    <circle cx="900" cy="285" r="18"/>
+    <circle cx="1060" cy="245" r="18"/>
+    <circle cx="690" cy="415" r="18"/>
+    <circle cx="890" cy="390" r="18"/>
+    <circle cx="1060" cy="360" r="18"/>
+    <circle cx="690" cy="285" r="18"/>
+    <circle cx="905" cy="210" r="18"/>
+    <circle cx="1060" cy="180" r="18"/>
+  </g>
+  <rect x="660" y="505" width="410" height="38" rx="19" fill="#dfe9ec"/>
+  <rect x="660" y="505" width="318" height="38" rx="19" fill="#2b8a7e"/>
+</svg>

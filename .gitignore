@@ -1,9 +1,13 @@
 node_modules/
-dist/
 .vite/
 tmp/
 *.log
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+vite.local.config.mjs
 *.zip
 *.pdf
 !public/**/*.pdf
+!dist/**/*.pdf
 /cv photo.jpg

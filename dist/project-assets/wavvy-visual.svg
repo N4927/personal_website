@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Wavvy proximity app visual">
+  <rect width="1200" height="675" fill="#f7f4ee"/>
+  <rect x="110" y="85" width="980" height="505" rx="28" fill="#102033"/>
+  <g transform="translate(260 105)">
+    <rect width="260" height="465" rx="42" fill="#161a1d"/>
+    <rect x="18" y="24" width="224" height="417" rx="28" fill="#f7f4ee"/>
+    <circle cx="130" cy="230" r="126" fill="none" stroke="#2b8a7e" stroke-width="4" opacity=".35"/>
+    <circle cx="130" cy="230" r="82" fill="none" stroke="#0f4c81" stroke-width="4" opacity=".45"/>
+    <circle cx="130" cy="230" r="42" fill="#0b2f4f"/>
+    <circle cx="72" cy="165" r="22" fill="#2b8a7e"/>
+    <circle cx="190" cy="205" r="22" fill="#c9861a"/>
+    <circle cx="135" cy="320" r="22" fill="#0f4c81"/>
+  </g>
+  <g transform="translate(680 120)">
+    <rect width="250" height="440" rx="42" fill="#161a1d"/>
+    <rect x="18" y="24" width="214" height="392" rx="28" fill="#eef3f8"/>
+    <rect x="48" y="68" width="154" height="34" rx="17" fill="#0b2f4f"/>
+    <rect x="48" y="132" width="154" height="92" rx="18" fill="#ffffff"/>
+    <rect x="68" y="248" width="114" height="24" rx="12" fill="#2b8a7e"/>
+    <rect x="68" y="292" width="114" height="24" rx="12" fill="#0f4c81"/>
+    <rect x="68" y="336" width="114" height="24" rx="12" fill="#c9861a"/>
+  </g>
+  <path d="M520 335 C590 255 650 255 680 335" fill="none" stroke="#2b8a7e" stroke-width="7" stroke-linecap="round" stroke-dasharray="12 14"/>
+  <path d="M520 385 C595 452 640 455 680 385" fill="none" stroke="#0f4c81" stroke-width="7" stroke-linecap="round" stroke-dasharray="12 14"/>
+  <circle cx="600" cy="335" r="34" fill="#ffffff"/>
+  <path d="M585 335 L596 346 L617 321" fill="none" stroke="#2b8a7e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

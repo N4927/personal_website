@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Autonomous quad-rotor control visual">
+  <rect width="1200" height="675" fill="#f7f4ee"/>
+  <rect x="75" y="75" width="1050" height="525" rx="26" fill="#ffffff" stroke="#d8dde1" stroke-width="3"/>
+  <rect x="125" y="445" width="950" height="34" rx="17" fill="#d6dde2"/>
+  <rect x="505" y="430" width="190" height="15" rx="7" fill="#5d8d54"/>
+  <g transform="translate(600 285)">
+    <line x1="-205" y1="-95" x2="205" y2="95" stroke="#0b2f4f" stroke-width="22" stroke-linecap="round"/>
+    <line x1="-205" y1="95" x2="205" y2="-95" stroke="#0b2f4f" stroke-width="22" stroke-linecap="round"/>
+    <rect x="-70" y="-42" width="140" height="84" rx="22" fill="#0f4c81"/>
+    <circle cx="-240" cy="-112" r="78" fill="none" stroke="#2b8a7e" stroke-width="18"/>
+    <circle cx="240" cy="112" r="78" fill="none" stroke="#2b8a7e" stroke-width="18"/>
+    <circle cx="-240" cy="112" r="78" fill="none" stroke="#c9861a" stroke-width="18"/>
+    <circle cx="240" cy="-112" r="78" fill="none" stroke="#c9861a" stroke-width="18"/>
+  </g>
+  <path d="M235 320 C360 210 470 205 585 280 S830 370 970 210" fill="none" stroke="#0f4c81" stroke-width="8" stroke-linecap="round" stroke-dasharray="18 20"/>
+  <path d="M260 510 C405 440 500 410 610 432 S785 470 940 385" fill="none" stroke="#2b8a7e" stroke-width="6" stroke-linecap="round"/>
+  <g transform="translate(165 145)">
+    <rect width="220" height="145" rx="18" fill="#eef3f8"/>
+    <path d="M28 105 C62 63 92 78 118 62 S165 35 190 56" fill="none" stroke="#0f4c81" stroke-width="7" stroke-linecap="round"/>
+    <path d="M28 116 C75 112 122 105 190 96" fill="none" stroke="#2b8a7e" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>

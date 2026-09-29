@@ -1,7 +1,12 @@
 import { Download, Linkedin, Mail } from "lucide-react";
 import { profile } from "../data/profile";
 
-const navItems = ["Projects", "Profile", "Experience", "Contact"];
+const navItems = [
+  { label: "Work", href: "#projects" },
+  { label: "Profile", href: "#profile" },
+  { label: "Timeline", href: "#experience" },
+  { label: "Contact", href: "#contact" },
+];
 
 export function Header() {
   return (
@@ -11,8 +16,8 @@ export function Header() {
       </a>
       <nav aria-label="Primary navigation">
         {navItems.map((item) => (
-          <a href={`#${item.toLowerCase()}`} key={item}>
-            {item}
+          <a href={item.href} key={item.href}>
+            {item.label}
           </a>
         ))}
       </nav>
