@@ -1,30 +1,60 @@
 export const skillGroups = [
   {
-    label: "Programming",
-    skills: ["C", "C++", "Python", "Assembly", "MATLAB/Simulink", "Arduino"],
+    label: "AI and data analysis",
+    skills: [
+      "Machine learning",
+      "Probabilistic AI",
+      "Simulation",
+      "Python",
+      "Data interpretation",
+    ],
   },
   {
-    label: "Engineering",
+    label: "Robotics and automation",
     skills: [
       "Control systems",
-      "Embedded firmware",
-      "Circuit design",
-      "Wireless systems",
-      "Simulation",
+      "Planning and decision making",
+      "Mobile robots",
+      "State-space modeling",
+      "MATLAB/Simulink",
     ],
   },
   {
-    label: "ML and Optimization",
+    label: "Operations analytics",
     skills: [
-      "Reinforcement learning",
-      "PyTorch",
-      "PPO",
+      "Process analysis",
       "Scheduling",
-      "Curriculum learning",
+      "Constraint thinking",
+      "Operations management",
+      "Optimization",
     ],
   },
   {
-    label: "Languages",
-    skills: ["Italian native", "English C1", "German B2", "French B1"],
+    label: "Business and economics",
+    skills: [
+      "Managerial economics",
+      "Game theory",
+      "Economic dynamics",
+      "Decision making",
+      "Structured reporting",
+    ],
+  },
+  {
+    label: "Technical execution",
+    skills: [
+      "C/C++",
+      "Embedded firmware",
+      "Django",
+      "Kotlin Multiplatform",
+      "PyTorch",
+    ],
+  },
+  {
+    label: "International communication",
+    skills: ["Italian native", "English C1", "German B2", "French B1", "Cross-cultural teams"],
+  },
+  {
+    label: "Personal strengths",
+    skills: ["Analytical discipline", "Fitness mindset", "Cycling endurance", "Calm under pressure"],
   },
 ];

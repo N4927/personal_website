@@ -1,5 +1,6 @@
 node_modules/
 .vite/
+.taste-skill/
 tmp/
 *.log
 *.tsbuildinfo

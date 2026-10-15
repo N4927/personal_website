@@ -1,4 +1,4 @@
-import { Download, Linkedin, Mail } from "lucide-react";
+import { ArrowDownToLine } from "lucide-react";
 import { profile } from "../data/profile";
 
 const navItems = [
@@ -10,29 +10,21 @@ const navItems = [
 
 export function Header() {
   return (
-    <header className="site-header">
-      <a className="brand" href="#top" aria-label="Alberto Fasulo home">
-        AF
-      </a>
-      <nav aria-label="Primary navigation">
-        {navItems.map((item) => (
-          <a href={item.href} key={item.href}>
-            {item.label}
+    <>
+      <a className="skip-link" href="#main">Skip to content</a>
+      <header className="site-header">
+        <div className="header-inner page-width">
+          <a className="brand" href="#top" aria-label="Alberto Fasulo, back to top">
+            Alberto Fasulo<span className="brand-mark" aria-hidden="true"> / AF</span>
           </a>
-        ))}
-      </nav>
-      <div className="header-actions">
-        <a className="icon-link" href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn profile">
-          <Linkedin size={18} />
-        </a>
-        <a className="icon-link" href={`mailto:${profile.email}`} aria-label="Email Alberto">
-          <Mail size={18} />
-        </a>
-        <a className="button small" href={`${import.meta.env.BASE_URL}${profile.cvPath}`} download>
-          <Download size={17} />
-          CV
-        </a>
-      </div>
-    </header>
+          <nav aria-label="Primary navigation">
+            {navItems.map((item) => <a href={item.href} key={item.href}>{item.label}</a>)}
+          </nav>
+          <a className="header-cv" href={`${import.meta.env.BASE_URL}${profile.cvPath}`} download>
+            <ArrowDownToLine size={16} aria-hidden="true" /> CV
+          </a>
+        </div>
+      </header>
+    </>
   );
 }

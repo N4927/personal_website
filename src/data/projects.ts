@@ -6,9 +6,15 @@ export type Project = {
   kicker: string;
   period: string;
   image: string;
+  imageAlt?: string;
+  imageCaption?: string;
   summary: string;
   impact: string[];
   stack: string[];
+  links?: {
+    label: string;
+    url: string;
+  }[];
   demo: "SchedulingDemo" | "RocketMpcDemo" | "QuadrotorDemo" | "WavvyDemo" | "WiBodyDemo" | "RoboticArmDemo";
 };
 
@@ -18,7 +24,9 @@ export const projects: Project[] = [
     title: "Deep RL for Flexible Job-Shop Scheduling",
     kicker: "ETH semester project",
     period: "March 2026 - Present",
-    image: "project-assets/scheduling-visual.svg",
+    image: "project-assets/scheduling-training.png",
+    imageAlt: "Original chart comparing dynamic-only, mixed, and curriculum policies across six scheduling scenarios",
+    imageCaption: "Original evaluation chart",
     summary:
       "A reinforcement learning framework for dynamic manufacturing schedules with new orders, cancellations, and machine failures.",
     impact: [
@@ -27,6 +35,20 @@ export const projects: Project[] = [
       "Used a three-phase disruption-intensity curriculum; reported 5/6 statistically significant wins on small instances and 6/6 point-estimate wins on larger instances.",
     ],
     stack: ["Python", "PyTorch", "Stable-Baselines3", "PPO", "Simulation"],
+    links: [
+      {
+        label: "Codebase",
+        url: "https://github.com/N4927/dynamic-job-shop-scheduling-rl",
+      },
+      {
+        label: "Report",
+        url: "reports/dynamic-job-shop-scheduling-rl-report.pdf",
+      },
+      {
+        label: "Sample Gantt",
+        url: "project-assets/scheduling-gantt.png",
+      },
+    ],
     demo: "SchedulingDemo",
   },
   {
@@ -34,7 +56,9 @@ export const projects: Project[] = [
     title: "Rocket Lander Controller Upgrade",
     kicker: "COCO 2026 - MPC control case",
     period: "June 2026",
-    image: "project-assets/rocket-mpc-visual.svg",
+    image: "project-assets/rocket-mpc-results.png",
+    imageAlt: "Controller presentation slide showing three MPC rocket trajectories landing despite nozzle and fuel faults",
+    imageCaption: "Controller comparison slide",
     summary:
       "A controller redesign case study comparing a decoupled PID rocket lander controller with a model predictive controller under actuator and mass mismatch faults.",
     impact: [
@@ -82,7 +106,9 @@ export const projects: Project[] = [
     title: "Wi-Body",
     kicker: "ETH bachelor thesis",
     period: "January 2025 - June 2025",
-    image: "project-assets/wibody-visual.svg",
+    image: "project-assets/wibody-setup.png",
+    imageAlt: "Thesis figure showing ESP32-C6 clients, access point, instruments, and synchronization wiring",
+    imageCaption: "Thesis experimental setup",
     summary:
       "An ESP32-C6 Wi-Fi 6 wireless body-area network testbed for high-throughput, energy-aware wearable sensing.",
     impact: [
@@ -91,6 +117,16 @@ export const projects: Project[] = [
       "Achieved inter-node synchronization within +/-50 microseconds using a TSF-based timing protocol.",
     ],
     stack: ["C", "ESP32-C6", "Wi-Fi 6", "Firmware", "WBAN", "Measurement"],
+    links: [
+      {
+        label: "Codebase",
+        url: "https://github.com/N4927/wi-body-wireless-sensing",
+      },
+      {
+        label: "Report",
+        url: "reports/wi-body-wireless-sensing-report.pdf",
+      },
+    ],
     demo: "WiBodyDemo",
   },
   {
@@ -107,6 +143,12 @@ export const projects: Project[] = [
       "Used distance sensing and trigonometry to map object position to joint angles.",
     ],
     stack: ["Python", "Raspberry Pi", "Servos", "GPIO", "Web UI", "Sensors"],
+    links: [
+      {
+        label: "Codebase and report",
+        url: "https://github.com/N4927/robotic-arm",
+      },
+    ],
     demo: "RoboticArmDemo",
   },
 ];
