@@ -23,7 +23,7 @@ export const projects: Project[] = [
     id: "scheduling",
     title: "Deep RL for Flexible Job-Shop Scheduling",
     kicker: "ETH semester project",
-    period: "March 2026 - Present",
+    period: "March 2026 - July 2026",
     image: "project-assets/scheduling-training.png",
     imageAlt: "Original chart comparing dynamic-only, mixed, and curriculum policies across six scheduling scenarios",
     imageCaption: "Original evaluation chart",
@@ -133,7 +133,7 @@ export const projects: Project[] = [
     id: "robotic-arm",
     title: "Robotic Arm",
     kicker: "High-school graduation project",
-    period: "April 2022",
+    period: "2022",
     image: "project-assets/robotic-arm-visual.svg",
     summary:
       "A physical robotic arm controlled from a computer and local web interface, with sensor-based object pickup and inverse-kinematics reasoning.",

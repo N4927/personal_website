@@ -30,7 +30,7 @@ function ProjectEntry({ project }: { project: Project }) {
             <ul>{project.impact.map((item) => <li key={item}>{item}</li>)}</ul>
           </div>
           <div className="project-resources">
-            <p className="project-stack"><span>Tools</span>{project.stack.join(" · ")}</p>
+            <p className="project-stack"><span>Tools</span>{project.stack.join(" / ")}</p>
             <ProjectLinks project={project} />
           </div>
         </div>
