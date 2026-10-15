@@ -14,28 +14,28 @@ function ProjectLinks({ project }: { project: Project }) {
   );
 }
 
-function ProjectFigure({ project, index }: { project: Project; index: number }) {
-  const imageUrl = `${import.meta.env.BASE_URL}${project.image}`;
+function ProjectEntry({ project }: { project: Project }) {
   return (
-    <figure className="project-figure" data-reveal>
-      <img src={imageUrl} alt={project.imageAlt ?? `Illustrated technical overview of ${project.title}`} loading={index === 0 ? "eager" : "lazy"} />
-    </figure>
-  );
-}
-
-function ProjectCopy({ project }: { project: Project }) {
-  return (
-    <div className="project-copy" data-reveal>
-      <h3>{project.title}</h3>
-      <p className="project-meta"><span>{project.kicker}</span><span>{project.period}</span></p>
-      <p className="project-summary">{project.summary}</p>
-      <div className="project-outcomes">
-        <h4>What I built</h4>
-        <ul>{project.impact.map((item) => <li key={item}>{item}</li>)}</ul>
-      </div>
-      <p className="project-stack"><span>Tools</span>{project.stack.join(" · ")}</p>
-      <ProjectLinks project={project} />
-    </div>
+    <article className="project-entry" id={project.id}>
+      <details>
+        <summary className="project-row">
+          <span className="project-context"><span>{project.period}</span><span>{project.kicker}</span></span>
+          <h3>{project.title}</h3>
+          <p className="project-summary">{project.summary}</p>
+          <span className="project-toggle" aria-hidden="true"><span className="toggle-plus">+</span><span className="toggle-minus">-</span></span>
+        </summary>
+        <div className="project-detail">
+          <div className="project-outcomes">
+            <h4>What I built</h4>
+            <ul>{project.impact.map((item) => <li key={item}>{item}</li>)}</ul>
+          </div>
+          <div className="project-resources">
+            <p className="project-stack"><span>Tools</span>{project.stack.join(" · ")}</p>
+            <ProjectLinks project={project} />
+          </div>
+        </div>
+      </details>
+    </article>
   );
 }
 
@@ -48,12 +48,7 @@ export function ProjectShowcase() {
           <p data-reveal>Modeling constraints, testing systems, and turning complexity into decisions.</p>
         </div>
         <div className="project-list">
-          {projects.map((project, index) => (
-            <article className={`project ${index === 0 ? "project-featured" : ""} ${project.imageCaption ? "project-has-figure" : "project-text-only"}`} data-project={project.id} id={project.id} key={project.id}>
-              <ProjectCopy project={project} />
-              {project.imageCaption ? <ProjectFigure project={project} index={index} /> : null}
-            </article>
-          ))}
+          {projects.map((project) => <ProjectEntry project={project} key={project.id} />)}
         </div>
       </div>
     </section>

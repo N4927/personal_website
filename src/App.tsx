@@ -19,10 +19,17 @@ export default function App() {
 
     revealElements.forEach((element) => observer.observe(element));
     document.documentElement.classList.add("motion-ready");
-    const target = document.getElementById(window.location.hash.slice(1));
-    target?.scrollIntoView({ behavior: "instant" });
+    const openHashTarget = () => {
+      const target = document.getElementById(window.location.hash.slice(1));
+      const projectDetails = target?.querySelector("details");
+      if (projectDetails) projectDetails.open = true;
+      target?.scrollIntoView({ behavior: "instant" });
+    };
+    openHashTarget();
+    window.addEventListener("hashchange", openHashTarget);
     return () => {
       observer.disconnect();
+      window.removeEventListener("hashchange", openHashTarget);
       document.documentElement.classList.remove("motion-ready");
     };
   }, []);

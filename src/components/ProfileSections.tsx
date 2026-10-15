@@ -24,7 +24,7 @@ export function ProfileSections() {
 
       <section className="timeline-section section-band" id="experience" aria-labelledby="timeline-title">
         <div className="page-width">
-          <div className="section-intro"><h2 id="timeline-title" data-reveal>Experience & education</h2><p data-reveal>ETH training, teaching work, and engineering projects.</p></div>
+          <div className="timeline-intro"><h2 id="timeline-title" data-reveal>Experience & education</h2><p data-reveal>ETH training, teaching work, and engineering projects.</p></div>
           <div className="timeline-columns">
             <div className="timeline-group" data-reveal>
               <h3>Experience</h3>
